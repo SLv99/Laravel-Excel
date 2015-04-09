@@ -412,7 +412,7 @@ class ExcelParser {
         }
 
         // Return array with parsed cells
-        return new CellCollection($parsedCells);
+        return $parsedCells;
     }
 
     /**
